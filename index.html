@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light"><meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' file:; style-src 'self' file:; connect-src https: http://127.0.0.1:* http://localhost:*; img-src 'none'; base-uri 'none'; form-action 'none'">
+<title>HSG &bull; Online club</title><link rel="stylesheet" href="style.css"><script defer src="config.js"></script><script defer src="app.js"></script></head>
+<body><header><div class="wrap masthead"><a href="#leaderboard" class="brand">HSG<span>ONLINE CLUB</span></a><p>Hot Shots Golf Fore!<br><span>A little friendly competition.</span></p></div></header>
+<div class="wrap"><nav aria-label="Main"><a href="#leaderboard">Leaderboard</a><a href="#history">Match history</a><a href="#rules">How it works</a></nav>
+<main id="main"><div class="intro"><p class="eyebrow">THE COMMUNITY LADDER</p><h1 id="heading">Leaderboard</h1><p id="description">Every round tells a story.</p></div>
+<form id="search"><label for="username">Find a GitHub player</label><div class="search-row"><input id="username" name="username" autocomplete="off" spellcheck="false" maxlength="39" placeholder="GitHub username" pattern="[A-Za-z0-9][A-Za-z0-9-]{0,38}"><button type="submit">Find history</button></div></form>
+<div class="status-row"><p id="updated">Waiting for the clubhouse...</p><button id="refresh" class="secondary" type="button">Refresh</button></div>
+<p id="status" role="status" aria-live="polite">Loading...</p><section id="content" aria-label="Results" aria-busy="true"></section>
+<div id="pagination" aria-label="Pagination"><button id="previous" class="secondary" type="button" disabled>&larr; Previous</button><span id="page"></span><button id="next" class="secondary" type="button" disabled>Next &rarr;</button></div>
+</main><footer>Community golf, on your own terms. <span>All-time ratings &middot; GitHub logins only &middot; No trackers</span></footer></div>
+<noscript>This site needs JavaScript to read the leaderboard. Enable JavaScript and refresh.</noscript></body></html>
